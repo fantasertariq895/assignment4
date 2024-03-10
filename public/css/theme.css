@@ -1,0 +1,160 @@
+/* Add the @import statement at the top */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Resetting some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font stack */
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Example gradient background */
+    color: #ecf0f1; /* Example text color */
+    overflow: auto; /* Ensure the gradient covers the entire page */
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    background-color: #34495e; /* Example navigation bar color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa; /* Example background color for "bg-light" class */
+  }
+  
+  .navbar-brand {
+    font-family: 'Lobster', cursive; /* Example Google Font */
+    color: #ecf0f1; /* Example text color */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); /* Example text shadow */
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa; /* Example background color for "navbar-light" class */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ecf0f1; /* Example text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #1abc9c; /* Example hover color */
+  }
+  
+  /* App Background Styles */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: #f8f9fa; /* Example solid background color */
+    background-size: cover; /* Example background size */
+    background-image: url('your-image-path.jpg'); /* Example image background */
+  }
+  
+  /* Main Content Styles */
+  .container {
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  .btn {
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #3498db; /* Example primary button color */
+    color: #ecf0f1; /* Example text color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9; /* Example hover color */
+  }
+  /* Additional styling for the form and table */
+form {
+    background-color: #fff; /* Background color for the form */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+  }
+  
+  legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db; /* Legend text color */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555; /* Label text color */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Input border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-inline {
+    margin-right: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9; /* Button hover color */
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Border color between table rows */
+  }
+  
+  th {
+    background-color: #3498db; /* Header background color */
+    color: #fff; /* Header text color */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    form {
+      margin-top: 10px;
+    }
+  }
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .navbar-nav.ml-auto {
+      margin-top: 10px;
+    }
+  }
+  
